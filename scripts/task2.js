@@ -13,7 +13,7 @@
 
 let numOrStr = prompt('input number or string');
 console.log(numOrStr)
-switch (numOrStr){
+switch (true){
     case(numOrStr === null):
         console.log('вы отменили')
         break;
@@ -26,5 +26,4 @@ switch (numOrStr){
     default:
         console.log('OK!')
         break;
-
 }
